@@ -188,38 +188,38 @@ const Navbar = () => {
           <Box>
             <HoverCard.Root openDelay={120}>
               <HoverCard.Trigger>
-                <a target="_blank" href={`https://docs.reservoir.tools/docs`}>
+                <a target="_blank" href={`/docs`}>
                   <NavItem>Developers</NavItem>
                 </a>
               </HoverCard.Trigger>
               <HoverCard.Content sideOffset={24} align="start">
                 <Card css={{ p: 24, width: 240 }}>
                   <Flex css={{ gap: '$4' }} direction="column">
-                    <a target="_blank" href={`https://reservoir.tools`}>
-                      <NavItem>About Reservoir</NavItem>
+                    <a target="_blank" href={`/about`}>
+                      <NavItem>About Pixel</NavItem>
                     </a>
                     <a
                       target="_blank"
-                      href={`https://docs.reservoir.tools/docs`}
+                      href={`/docs`}
                     >
                       <NavItem>Docs</NavItem>
                     </a>
 
                     <a
                       target="_blank"
-                      href={`https://docs.reservoir.tools/reference/overview`}
+                      href={`/reference/overview`}
                     >
                       <NavItem>API Reference</NavItem>
                     </a>
 
                     <a
                       target="_blank"
-                      href={`https://github.com/reservoirprotocol`}
+                      href={`/reservoirprotocol`}
                     >
-                      <NavItem>Github</NavItem>
+                      <NavItem>Hub</NavItem>
                     </a>
 
-                    <a href={`https://testnets.reservoir.tools`}>
+                    <a href={`/testnetss`}>
                       <NavItem>Testnet Explorer</NavItem>
                     </a>
                   </Flex>
